@@ -26,7 +26,7 @@ const Projects = () => {
 
   const academicProjects = [
     {
-      title: 'ASK A FREELANCE',
+      title: 'ASK && FREELANCE',
       description: 'Website Developed using MEAN Stack technologies',
       date: '2019'
     },
