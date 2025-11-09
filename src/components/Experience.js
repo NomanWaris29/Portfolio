@@ -11,7 +11,7 @@ const Experience = () => {
     },
     {
       title: 'Cyber Security Developer',
-      company: 'MoIt, Government of Pakistan',
+      company: 'MoD, Government of Pakistan',
       location: 'Rawalpindi',
       date: 'March 2023 - Feb 2024',
       description: 'Hands-on experience as a .NET Developer, specializing in C#, with a focus on developing secure desktop applications. Adept at integrating cybersecurity best practices to ensure robust functionality and alignment with project objectives.'
