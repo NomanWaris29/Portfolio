@@ -31,7 +31,7 @@ const Projects = () => {
       date: '2019'
     },
     {
-      title: 'FYP TRACKER',
+      title: 'FNF TRACKER',
       description: 'Android Application developed to keep track of friends and family',
       date: '2018'
     },
