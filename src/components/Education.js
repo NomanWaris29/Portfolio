@@ -4,21 +4,24 @@ const Education = () => {
   const education = [
     {
       degree: 'BS Computer Science',
-      institution: 'Comsats University Islamabad',
+      subjects: '(OOP, DS, COAL, Web, Visual Programming)',
+      institution: 'Comsats University',
       date: '2015-2019',
-      grade: '3.48'
+      grade: 'CGPA : 3.48'
     },
     {
       degree: 'FSc Pre-Engineering',
-      institution: 'PHYSICS, MATHS, CHEMISTRY',
+      subjects: '(PHYSICS, MATHS, CHEMISTRY)',
+      institution: 'F.G Sir Syed College The Mall Rwp',
       date: '2012-2014',
-      grade: '72 %'
+      grade: 'Grade : 72 %'
     },
     {
       degree: 'Matric',
-      institution: 'PHYSICS, CHEMISTRY, BIOLOGY, MATHS',
+      subjects: '(PHYSICS, CHEMISTRY, BIOLOGY, MATHS)',
+      institution: 'F.G Public Secondary School Rwp',
       date: '2010-2012',
-      grade: '89 %'
+      grade: 'Grade : 89 %'
     }
   ];
 
@@ -30,11 +33,12 @@ const Education = () => {
           <div className="item-header">
             <div>
               <h3>{edu.degree}</h3>
+              {edu.subjects && <div className="subjects">{edu.subjects}</div>}
               <div className="institution">{edu.institution}</div>
             </div>
             <div className="date">{edu.date}</div>
           </div>
-          <p className="description">Grade: {edu.grade}</p>
+          <p className="description">{edu.grade}</p>
         </div>
       ))}
     </section>

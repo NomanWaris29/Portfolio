@@ -751,3 +751,19 @@ body {
     font-size: 2rem;
   }
 }
+
+/* Education subjects */
+.subjects {
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.company,
+.institution {
+  color: #7c3aed;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
